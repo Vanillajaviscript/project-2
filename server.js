@@ -21,7 +21,10 @@ db.on('disconnected', () => console.log("MongoDB Disconnected!"));
 app.use(express.static('public'));
 app.use(express.urlencoded({extended: true}));
 app.use(morgan('tiny'));
-
+app.use((req, res, next) => {
+    res.locals.path = req.path;
+    next();
+  });
 //Routes
 app.get("/", (req, res) => {
     res.send('root is working')
