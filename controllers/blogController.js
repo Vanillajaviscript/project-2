@@ -1,5 +1,13 @@
 const Blog = require('../models/blogSchema');
 
+const seed = (req, res) => {
+    Product.deleteMany({}, (err, deletedBlogs) => {
+        Product.create(blogSeed, (err, data) => {
+        if(err) return res.send(err);
+        res.redirect('/blogs');
+        });
+    });
+}
 const index = (req, res) => {
     Blog.find({createdAt: -1}, (err, result) => {
         if (err) return res.send(err);
@@ -34,10 +42,19 @@ const deleteBlog = (req, res) => {
     });
 };
 
+const editBlog = (req, res) => {
+    const id = req.params.id;
+    Blog.findByIdAndUpdate(id, (err, result) => {
+        res.render('edit', {title: 'Edit a blog'})
+    })
+}
+
 module.exports = {
     index,
     show,
     createGet,
     createPost,
-    deleteBlog
+    deleteBlog,
+    seed,
+    editBlog
 }
