@@ -24,11 +24,17 @@ app.use(morgan('tiny'));
 app.use((req, res, next) => {
     res.locals.path = req.path;
     next();
-  });
+});
+app.use('/blogs', blogRoutes);
 //Routes
 app.get("/", (req, res) => {
-    res.send('root is working')
-})
+    res.redirect("/blogs");
+});
+app.get('/about', (req, res) => {
+    res.render("about", {title: "About"});
+});
+
+
 
 //Listener
 app.listen(PORT, () => {

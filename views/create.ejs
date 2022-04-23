@@ -2,6 +2,7 @@
 <html lang="en">
 <%- include("./partials/head.ejs") %>
 <body>
+    <%- include("./partials/nav.ejs")%>
     <div class="create">
         <form action="/blogs" method="POST">
             <label for="title">Blog title:</label>
@@ -13,5 +14,7 @@
             <input type="submit" value="Submit">
         </form>
     </div>
+    <%- include("./partials/footer.ejs")%>
 </body>
+
 </html>
