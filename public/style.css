@@ -6,7 +6,11 @@ body{
     max-width: 1200px;
     background: rgba(0, 0, 0, 0.863);
   }
-
+img {
+  max-width: 20%;
+  max-height: 20%;
+  border-radius: 20%;
+}
   p, h1, h2, h3, a, ul {
       text-decoration: none;
       margin: 0;
@@ -14,36 +18,4 @@ body{
       color: rgb(255, 255, 255);
   }
 
-  nav {
-      display: flex;
-      justify-content: space-evenly;
-      margin-bottom: 60px;
-      padding-bottom: 10px;
-      border-bottom: 1px solid #ddd;
-      text-transform: uppercase;
-  }
-
-  nav ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-  nav li{
-    list-style-type: none;
-    margin-left: 20px;
-  }
-  nav h1{
-    font-size: 3em;
-  }
-  nav p, nav a{
-    color: #777;
-    font-weight: 300;
-  }
-
-  footer {
-      color: gray;
-      text-align: center;
-  }
-  .create {
-      color: white;
-  }
+ 

@@ -1,24 +1,25 @@
 const Blog = require('../models/blogSchema');
 
+
 const seed = (req, res) => {
-    Product.deleteMany({}, (err, deletedBlogs) => {
-        Product.create(blogSeed, (err, data) => {
+    Blog.deleteMany({}, (err, deletedBlogs) => {
+        Blog.create(blogSeed, (err, data) => {
         if(err) return res.send(err);
         res.redirect('/blogs');
         });
     });
 }
 const index = (req, res) => {
-    Blog.find({createdAt: -1}, (err, result) => {
+    Blog.find({}, (err, result) => {
         if (err) return res.send(err);
+        console.log(result);
         res.render("index", {blogs: result, title: "All blogs"})
     })
 };
 
 const show = (req, res) => {
-    const id = req.params.id;
-    Blog.findById(id, (err, result) => {
-        if (err) return res.render("404", {title: "Blog not found..."});
+    Blog.findById(req.params.id, (err, result) => {
+        // if (err) return res.render("404", {title: "Blog not found..."});
         res.render("show", {blog: result, title: "Blog Show"});
     });
 };
@@ -36,18 +37,18 @@ const createPost = (req, res) => {
 };
 
 const deleteBlog = (req, res) => {
-    const id = req.params.id;
-    Blog.findByIdAndDelete(id, (err, result) => {
-        res.render({redirect: '/blogs'});
+    Blog.findByIdAndDelete(req.params.id, (err, result) => {
+        // res.render({redirect: '/blogs'});
+        res.redirect('/blogs');
     });
 };
 
 const editBlog = (req, res) => {
-    const id = req.params.id;
-    Blog.findByIdAndUpdate(id, (err, result) => {
-        res.render('edit', {title: 'Edit a blog'})
+    Blog.findByIdAndUpdate(req.params.id, (err, updatedBlog) => {
+        res.render(`/blogs/${req.params.id}`);
     })
 }
+
 
 module.exports = {
     index,

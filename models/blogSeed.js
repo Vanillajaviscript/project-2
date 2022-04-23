@@ -1,7 +1,7 @@
 const blog = [
     {
       title: "Tuna",
-      snippet: "A small pile of beans. Buy more beans for a big pile of beans.",
+      snippet: "Dummy text",
       img: "https://imgur.com/LEHS8h3.png",
     },
     {
@@ -11,7 +11,7 @@ const blog = [
     },
     {
       title: "Ralph",
-      snippet: "A stack of colorful bins for your beans and bones.",
+      snippet: "dummy text",
       img: "https://imgur.com/ptWDPO1.png",
     },
   ];

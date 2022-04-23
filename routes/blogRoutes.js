@@ -8,5 +8,6 @@ blogRouter.get('/', blogController.index);
 blogRouter.post('/', blogController.createPost);
 blogRouter.get('/:id', blogController.show);
 blogRouter.delete('/:id', blogController.deleteBlog);
-blogRouter.put('/:id', blogController.edit)
+blogRouter.put('/:id', blogController.editBlog);
+
 module.exports = blogRouter;
