@@ -18,4 +18,6 @@ img {
       color: rgb(255, 255, 255);
   }
 
- 
+  p { 
+    text-indent: 30px;
+ }

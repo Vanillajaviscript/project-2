@@ -1,5 +1,5 @@
 const Blog = require('../models/blogSchema');
-
+const blog = require('../models/blogSeed');
 
 const seed = (req, res) => {
     Blog.deleteMany({}, (err, deletedBlogs) => {
@@ -38,14 +38,22 @@ const createPost = (req, res) => {
 
 const deleteBlog = (req, res) => {
     Blog.findByIdAndDelete(req.params.id, (err, result) => {
-        // res.render({redirect: '/blogs'});
         res.redirect('/blogs');
     });
 };
 
 const editBlog = (req, res) => {
-    Blog.findByIdAndUpdate(req.params.id, (err, updatedBlog) => {
-        res.render(`/blogs/${req.params.id}`);
+    Blog.findById(req.params.id, (err, editedBlog) => {
+        if(err) return res.send(err);
+        res.render('edit', {blog: editedBlog});
+    })
+}
+
+//Update blog
+const update = (req, res) => {
+    Blog.findByIdAndUpdate(req.params.id, req.body, (err, updatedBlog) => {
+        if(err) return res.send(err);
+        res.redirect(`/blogs/${req.params.id}`);
     })
 }
 
@@ -57,5 +65,6 @@ module.exports = {
     createPost,
     deleteBlog,
     seed,
-    editBlog
+    editBlog,
+    update
 }

@@ -5,7 +5,7 @@
   <%- include("./partials/nav.ejs") %>
 
   <div class="blogs content">
-    <h2>Blogs</h2>
+    <h2>Osito's Blogs</h2>
     <% if (blogs.length > 0) { %>
       <% blogs.forEach(blog => { %>
         <a class="single" href="/blogs/<%= blog._id %>">
@@ -14,7 +14,7 @@
         </a>
       <% }) %>
     <% } else { %>
-      <h3>No content</h3>
+      <h3>Create a blog for something to show!</h3>
     <% } %>
     
   </div>
