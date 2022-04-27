@@ -1,6 +1,6 @@
 const blog = [
     {
-      title: "Tuna",
+      title: "Cleo",
       snippet: "Missing dog treks 60 miles to her old home",
       body: "Some ties can’t be broken. This was certainly the case with Cleo, a yellow labrador-mix who went missing earlier this month. Thankfully, Cleo was found, but it was in the unlikeliest of places—her owner’s previous home. When Colton Michael found an unfamiliar dog on his porch, he assumed it belonged to a nearby neighbor. Once he earned Cleo’s trust, Michael took her to have her microchip scanned. The results were astonishing—Cleo belonged to his home’s previous owner! Even after two years, Cleo was still attached to her old house. Despite what they say, you really can go home again.",
       img: "https://grumbledog.com/blog/wp-content/uploads/2020/08/Inspiring-Dogs-Photo-2.jpg"
