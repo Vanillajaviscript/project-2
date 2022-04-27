@@ -92,7 +92,7 @@ Link to site deployed on Heroku [The Canine Times](https://dog-blog-1217.herokua
 ## Scheduled goals
 
 | Days | Wed | Thur | Fri | Sat | Sun | Mon | Tue | Wed |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Goal | Create entire template with folders | Create working route | Provide create and read functions | Provide update and delete functions | Organize and refactor code  | Attempt styling | Deploy to Heroku | Prepare project presentation |
 ---
 ## Project screenshots
