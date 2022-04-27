@@ -14,9 +14,8 @@
       text-decoration: none;
       color: rgb(245, 237, 237);
     }
-
     .about {
-      
+      text-indent: 30px;
     }
     #nav-links {
       margin-right: 10px;
@@ -68,14 +67,6 @@
       text-transform: capitalize;
       margin-bottom: 9px;
     }
-    
-    /* .delete-btn {
-      margin-top: 200px;
-      color: rgb(15, 14, 14);
-      font-size: 1.2em;
-      cursor: pointer;
-      border-radius: 40px;
-    } */
     .content a{
       display: inline-block;
       margin: 40px 0;
@@ -88,26 +79,22 @@
     a:hover h3{
       color: rgb(240, 228, 228);
     }
-  
     .blog-container {
       display: grid;
       grid-template-columns: auto auto;
       gap: 15px;
     }
-
     form{
       max-width: 800px;
       margin: 0 auto;
       color: white;
     }
-    input,
-    textarea{
+    input, textarea{
       display: inline-block;
       width: 100%;
       margin: 10px 0;
       padding: 10px;
     }
-
     label {
       display: block;
       margin-top: 24px;
@@ -125,7 +112,6 @@
       cursor: pointer;
       border-radius: 10px;
     }
-
     @media screen and (max-width: 1094px) {
       .blog-container {
         grid-template-columns: 1fr;
