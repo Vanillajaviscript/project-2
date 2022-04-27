@@ -113,10 +113,10 @@ Link to site deployed on Heroku [The Canine Times](https://dog-blog-1217.herokua
 
 ## Where will my project be in 5 years?
 - Provide login page:
-    ```Oauth (authorization) or passport(authentication)```
+    - Oauth (authorization) or passport(authentication)
     <br>
 - Styling:
-    ```Provide cleaner styling to the nav bar, namely a drop down menu that provides register, login, and logout options.```
+    - Provide cleaner styling to the nav bar, namely a drop down menu that provides register, login, and logout options.
     <br>
 - Complete refactoring of code where appropriate:
-    ```Provide better organization, such as placing database connection in a separate folder, namely "config".```
+    - Provide better organization, such as placing database connection in a separate folder, namely "config".
