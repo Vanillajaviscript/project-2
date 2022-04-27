@@ -35,12 +35,14 @@ User will be able to:
 
 ### Models with Schema
 
-#####Blog schema structured as follows:
-    -title
-    -snippet
-    -body
-    -img
-    -timestamps
+####Blog schema structured as follows:
+
+- title
+- snippet
+- body
+- img
+- timestamps
+<br>
 <img src="https://i.imgur.com/xtS6YVf.png">
 
 #### Technologies used
@@ -63,6 +65,18 @@ User will be able to:
 | Days | Wed | Thur | Fri | Sat | Sun | Mon | Tue | Wed |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Goal | Create entire template with folders | Create working route | Provide create and read functions | Provide update and delete functions | Organize and refactor code  | Attempt styling | Deploy to Heroku | Prepare project presentation |
+
+####Project screenshots
+######Home page
+<img src="https://i.imgur.com/5fcHV4M.png">
+######About page
+<img src="https://i.imgur.com/8DY5iC1.png">
+######Show page
+<img src="https://i.imgur.com/21BiaiG.png">
+######Create page
+<img src="https://i.imgur.com/ysr0bCU.png">
+######Edit page
+<img src="https://i.imgur.com/VoN7erR.png">
 
 ####Where will my project be in 5 years?
 - Provide login page:

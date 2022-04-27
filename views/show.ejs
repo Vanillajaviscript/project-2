@@ -9,7 +9,7 @@
         <h3><%= blog.snippet %> </h3>
         <img src="<%= blog.img%>" alt="">
         <div class="content">
-            <p><%=blog.body%></p>
+            <p class="body-content"><%=blog.body%></p>
         </div>
         <form action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
             <input id="show-delete" type="submit" value="Delete">
