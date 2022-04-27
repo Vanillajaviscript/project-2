@@ -3,15 +3,16 @@
     <%- include("./partials/head.ejs") %>
 <body>
     <%- include("./partials/nav.ejs")%>
-    <form action="/blogs/<%=blog._id%>?_method=PUT" method="POST">
+    <form class="edit-form" action="/blogs/<%=blog._id%>?_method=PUT" method="POST">
         <label for="title">Title:</label>
-        <input type="text" name="<%=blog.title%>" value="<%=blog.title%>" required>
+        <input type="text" name="title" value="<%=blog.title%>" required>
         <label for="snippet">Snippet:</label>
-        <input type="text" name="<%=blog.snippet%>" value="<%=blog.snippet%>" required>
+        <input type="text" name="snippet" value="<%=blog.snippet%>" required>
         <label for="body">Body:</label>
-        <textarea name="<%=blog.body%>" id="body" cols="30" rows="10"  required><%=blog.body%></textarea>
-        <input type="submit" value="Edit">
+        <textarea name="body" id="body" cols="30" rows="10"  required><%=blog.body%></textarea>
+        <input type="submit" value="Submit">
     </form>
+    <a href="/blogs"><button>Return</button></a>
     <%- include("./partials/footer.ejs")%>
 </body>
 </html>

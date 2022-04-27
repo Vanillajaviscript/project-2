@@ -4,7 +4,7 @@
 <body>
     <%- include("./partials/nav.ejs")%>
     <div class="new">
-        <form action="/blogs" method="POST">
+        <form class="create-form" action="/blogs" method="POST">
             <label for="title">Title:</label>
             <input type="text" name="title" required>
             <label for="snippet">Snippet:</label>
@@ -13,6 +13,7 @@
             <textarea name="body" id="body" cols="30" rows="10"></textarea>
             <input type="submit" value="Submit">
         </form>
+        <a class="return-btn" href="/blogs"><button>Return</button></a>
     </div>
     <%- include("./partials/footer.ejs")%>
 </body>

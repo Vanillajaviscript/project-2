@@ -25,7 +25,7 @@ db.on('disconnected', () => console.log("MongoDB Disconnected!"));
 app.use(express.static('public'));
 app.use(methodOverride("_method"));
 app.use(express.urlencoded({extended: true}));
-app.use(morgan('tiny'));
+app.use(morgan('dev'));
 app.use('/blogs', blogRoutes);
 
 //Routes

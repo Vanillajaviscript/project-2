@@ -2,17 +2,17 @@ const blog = [
     {
       title: "Tuna",
       snippet: "Dummy text",
-      img: "https://imgur.com/LEHS8h3.png",
+      body: "dummy text"
     },
     {
       title: "Bacon",
       snippet: "It's just a bag of bones.",
-      img: "https://imgur.com/dalOqwk.png",
+      body: "dummy text"
     },
     {
       title: "Ralph",
       snippet: "dummy text",
-      img: "https://imgur.com/ptWDPO1.png",
+      body: "dummy text"
     },
   ];
 
