@@ -21,18 +21,29 @@ User will be able to:
 
 Link to site deployed on Heroku [The Canine Times](https://dog-blog-1217.herokuapp.com/blogs).
 
-######Wireframe screenshots
-######Home:
+
+###### Wireframe screenshots
+
+###### Home:
 <img src="https://i.imgur.com/GsjKWmW.png">
-######Create:
+
+---
+###### Create:
 <img src="https://i.imgur.com/lL2Baxn.png">
-######Edit:
+
+---
+###### Edit:
 <img src="https://i.imgur.com/GHksHxn.png">
-######About:
+
+---
+###### About:
 <img src="https://i.imgur.com/oCEhqqN.png">
-######Show:
+
+---
+###### Show:
 <img src="https://i.imgur.com/ttx64ut.png">
 
+---
 
 ## Intended Routes:
 
@@ -53,7 +64,7 @@ Link to site deployed on Heroku [The Canine Times](https://dog-blog-1217.herokua
 
 ## Models with Schema
 
-####Blog schema structured as follows:
+#### Blog schema structured as follows:
 
 - title
 - snippet
@@ -88,12 +99,20 @@ Link to site deployed on Heroku [The Canine Times](https://dog-blog-1217.herokua
 ## Project screenshots
 ###### Home page
 <img src="https://i.imgur.com/5fcHV4M.png">
+---
+
 ###### About page
 <img src="https://i.imgur.com/8DY5iC1.png">
+---
+
 ###### Show page
 <img src="https://i.imgur.com/21BiaiG.png">
+---
+
 ###### Create page
 <img src="https://i.imgur.com/ysr0bCU.png">
+
+---
 ###### Edit page
 <img src="https://i.imgur.com/VoN7erR.png">
 
