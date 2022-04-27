@@ -17,7 +17,24 @@ User will be able to:
 
 ---
 
-### Intended Routes:
+## Getting Started
+
+Link to site deployed on Heroku [The Canine Times](https://dog-blog-1217.herokuapp.com/blogs).
+
+######Wireframe screenshots
+######Home:
+<img src="https://i.imgur.com/GsjKWmW.png">
+######Create:
+<img src="https://i.imgur.com/lL2Baxn.png">
+######Edit:
+<img src="https://i.imgur.com/GHksHxn.png">
+######About:
+<img src="https://i.imgur.com/oCEhqqN.png">
+######Show:
+<img src="https://i.imgur.com/ttx64ut.png">
+
+
+## Intended Routes:
 
 - Organizing routes provided ease of mind, namely following MVC best practice.
 
@@ -32,8 +49,9 @@ User will be able to:
   - update
   - seed data
   - show
+---
 
-### Models with Schema
+## Models with Schema
 
 ####Blog schema structured as follows:
 
@@ -44,8 +62,9 @@ User will be able to:
 - timestamps
 <br>
 <img src="https://i.imgur.com/xtS6YVf.png">
+---
 
-#### Technologies used
+## Technologies used
 
 - Express
 - Node.js
@@ -60,25 +79,26 @@ User will be able to:
 
 ---
 
-####Scheduled goals
+## Scheduled goals
 
 | Days | Wed | Thur | Fri | Sat | Sun | Mon | Tue | Wed |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Goal | Create entire template with folders | Create working route | Provide create and read functions | Provide update and delete functions | Organize and refactor code  | Attempt styling | Deploy to Heroku | Prepare project presentation |
-
-####Project screenshots
-######Home page
+---
+## Project screenshots
+###### Home page
 <img src="https://i.imgur.com/5fcHV4M.png">
-######About page
+###### About page
 <img src="https://i.imgur.com/8DY5iC1.png">
-######Show page
+###### Show page
 <img src="https://i.imgur.com/21BiaiG.png">
-######Create page
+###### Create page
 <img src="https://i.imgur.com/ysr0bCU.png">
-######Edit page
+###### Edit page
 <img src="https://i.imgur.com/VoN7erR.png">
 
-####Where will my project be in 5 years?
+---
+## Where will my project be in 5 years?
 - Provide login page:
     ```Oauth (authorization) or passport(authentication)```
     <br>
