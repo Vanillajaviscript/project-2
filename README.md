@@ -35,7 +35,7 @@ User will be able to:
 
 ### Models with Schema
 
-#####```Blog schema structured as follows:```
+#####Blog schema structured as follows:
     -title
     -snippet
     -body
