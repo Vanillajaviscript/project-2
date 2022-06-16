@@ -1,21 +1,21 @@
 const blog = [
     {
       title: "Cleo",
-      snippet: "Missing dog treks 60 miles to her old home",
+      snippet: "Missing dog treks 60 miles to her old home!",
       body: "Some ties can’t be broken. This was certainly the case with Cleo, a yellow labrador-mix who went missing earlier this month. Thankfully, Cleo was found, but it was in the unlikeliest of places—her owner’s previous home. When Colton Michael found an unfamiliar dog on his porch, he assumed it belonged to a nearby neighbor. Once he earned Cleo’s trust, Michael took her to have her microchip scanned. The results were astonishing—Cleo belonged to his home’s previous owner! Even after two years, Cleo was still attached to her old house. Despite what they say, you really can go home again.",
-      img: "https://grumbledog.com/blog/wp-content/uploads/2020/08/Inspiring-Dogs-Photo-2.jpg"
+      img: "https://cdn.britannica.com/49/161649-050-3F458ECF/Bernese-mountain-dog-grass.jpg?q=60"
     },
     {
-      title: "Barry the Saint Bernard",
+      title: "Muffins the puppy sets up for lunch!",
       snippet: "A dog hero",
-      body: "Did you know that Saint Bernards were bred by monks in the 1800’s specifically to rescue travelers stranded in the snowy Swiss Alps? One special dog named Barry took his job very seriously, saving 40 people in his lifetime.Even after his death, Barry’s legacy was immortalized by the Swiss monks who continue to keep one dog named Barry in their monastery at all times.",
-      img: "https://grumbledog.com/blog/wp-content/uploads/2020/08/Inspiring-Dogs-Photo-4.jpg"
+      body: "Muffins appears to need no owner. Muffins sets up for lunch with his food bowl. He loves to walk around searching for kibble. He is easily able to sneak into pet stores due to this size and secretly fill his bowl from the bags of food on the shelves!",
+      img: "https://www.rspcapetinsurance.org.au/RSPCA/media/images/general/what-should-I-feed-my-dog-1.jpg"
     },
     {
-      title: "Great Dane helps boy with cerebral palsy walk again",
+      title: "Lab helps boy with cerebral palsy walk again!",
       snippet: "Big dogs can be the most gentle",
       body: "Dogs can be the ultimate motivators. This proved to be true for Hunter VanBrocklin, a young boy with cerebral palsy who underwent surgery for hip dysplasia in 2016. When Hunter needed to learn how to walk again, his beloved  Dane, Wendy, rose to the occasion. With a gentle leader harness around her neck, Wendy helped Hunter maintain his balance, making it possible for the boy to enjoy active pursuits—even hiking!",
-      img: "https://grumbledog.com/blog/wp-content/uploads/2020/08/Inspiring-Dogs-Photo-3.jpg" 
+      img: "https://www.guidedogs.org/wp-content/uploads/2021/09/dogs-of-destiny-yellow-lab-headshot.jpg" 
     },
     {
       title: "Mountain dog hero",
